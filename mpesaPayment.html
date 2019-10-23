@@ -9,27 +9,22 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="createbill.js" defer></script>
+		<script type="text/javascript" src="mpesapayment.js" defer></script>
 	</head>
 	<body>
 		<!--Create Bill for payment form-->
 		<div class="container">
-			<h1>FILL IN DETAILS BELOW</h1>
+			<h1>FILL IN PAYMENT DETAILS BELOW</h1>
 			<form id="myform" action="#">
-				<!--Enter users name information-->
+				<!--Enter bill number information-->
 				<div class="form-group">
-					<label for="name">Enter Customer Name:</label>
-					<input type="name" name="name" class="form-control" id="name" placeholder="Enter Customer Name">
-				</div>
-				<!--Enter users prouduct description to be purchased information-->
-				<div class="form-group">
-					<label for="description">Enter Description:</label>
-					<input type="description" name="description" class="form-control" id="description" placeholder="Enter Description">
+					<label for="name">Bill Number:</label>
+					<input type="billnumber" name="billnumber" class="form-control" id="billnumber" placeholder="Bill Number">
 				</div>
 				<!--Enter product amount-->
 				<div class="form-group">
-					<label for="amount">Enter Amount:</label>
-					<input type="amount" name="amount" class="form-control" id="amount" placeholder="Enter Amount">
+					<label for="amount">Enter Phone Number:</label>
+					<input type="phoneNumber" name="phoneNumber" class="form-control" id="phoneNumber" placeholder="Enter Amount">
 				</div>
 				<button id="button" type="submit" class="btn btn-primary">Submit</button>
 			</form>
